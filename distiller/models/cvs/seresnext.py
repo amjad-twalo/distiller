@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from .resnext import ResNext
 
+__all__ = ['SEResNext']
 
 class SEResNext(ResNext):
     class SEBlock(nn.Module):
